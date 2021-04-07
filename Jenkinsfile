@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('scm') {
             steps {
-                git branch: 'develpoer', url :'https://github.com/sivagunji007/qtgol.git'        
+                git branch:'developer', url :'https://github.com/sivagunji007/qtgol.git'        
             }
         }
         stage('build') {
