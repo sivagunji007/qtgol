@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('scm') {
             steps {
-                git 'https://github.com/wakaleo/game-of-life.git'        
+                git 'https://github.com/sivagunji007/qtgol.git'        
             }
         }
         stage('build') {
