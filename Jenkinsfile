@@ -1,9 +1,9 @@
-pipeline {
+ppipeline {
     agent { label 'MASTER'}
     stages {
         stage('scm') {
             steps {
-                git branch:'release', url: 'https://github.com/sivagunji007/qtgol.git'        
+                git branch: 'release', url:'https://github.com/sivagunji007/qtgol.git'        
             }
         }
         stage('build') {
